@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smooth painter</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toolbar">
+        <div class="weight-wrapper">
+            <div class="className">粗細</div>
+            <div class="weight">
+                <div class="weight-inside"></div>
+            </div>
+            <div class="weight">
+                <div class="weight-inside"></div>
+            </div>
+            <div class="weight">
+                <div class="weight-inside"></div>
+            </div>
+            <div class="weight">
+                <div class="weight-inside"></div>
+            </div>
+            <div class="weight">
+                <div class="weight-inside"></div>
+            </div>
+        </div>
+        <div class="current-wrapper">
+            <div class="className">目前</div>
+            <div class="current"></div>
+        </div>
+        <div class="color-wrapper">
+            <div class="className">顏色</div>
+            <div class="color red"></div>
+            <div class="color green"></div>
+            <div class="color blue"></div>
+            <div class="color white"></div>
+            <div class="color black"></div>
+        </div>
+        <div class="size-wrapper">
+                <div class="className">縮放</div>
+                <div class="size big"><i class="fas fa-search-plus"></i></div>
+                <div class="size small"><i class="fas fa-search-minus"></i></div>
+        </div>
+        <div class="download-wrapper">
+            <div class="className">下載</div>
+            <div id="download"><i class="fas fa-angle-double-down"></i></div>
+        </div>
+        <div class="clear-wrapper">
+            <div class="className">清除</div>
+            <div id="clear"><i class="fas fa-trash"></i></div>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script type= text/javascript src="main.js"></script>
+</body>
+</html>

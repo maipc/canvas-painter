@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #cdd6e5;
+    font-family: "Segoe UI","微軟正黑體",sans-serif;
+    font-size: 20px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+canvas {
+    display: block;
+    margin: 3px;
+    background-color: white;
+    box-shadow: 2px 2px #8c8c8c;
+}
+.toolbar {
+    position: relative;
+    height: 13%;
+    width: 100%;
+    background-color:#f5f6f7;
+}
+.weight-wrapper {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    height: 100%;
+    width: 13%;
+    display: flex;
+    justify-content: space-around;
+    border-left: 1px #e6e6e6 solid;
+    border-right: 1px #e6e6e6 solid;
+}
+.className {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.weight {
+    position: relative;
+    top: 4px;
+    height: 45px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weight:hover {
+    cursor: pointer;
+    border: 1px solid #1a8cff;
+    background-color: rgba(26, 140, 255, 0.2);
+}
+.weight-inside {
+    height: 40px;
+    border: 0.3px solid;
+    background-color: black;
+}
+.current-wrapper {
+    position: absolute;
+    left: 23%;
+    top: 0;
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.current {
+    position: relative;
+    top: 8px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #d9d9d9;
+}
+.color-wrapper {
+    position: absolute;
+    left: 28%;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px #e6e6e6 solid;
+}
+.color {
+    position: relative;
+    top: 8px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid #d9d9d9;
+}
+.color:hover {
+    cursor: pointer;
+}
+.color.red {
+    background-color: red;
+}
+.color.green {
+    background-color: green;
+}
+.color.blue {
+    background-color: blue;
+}
+.color.white {
+    background-color: white;
+}
+.color.black {
+    background-color: black;
+}
+.size-wrapper {
+    position: absolute;
+    left: 53%;
+    top: 0;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px #e6e6e6 solid;
+}
+.size {
+    position: relative;
+    top: 5px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: #737373;
+}
+.size:hover {
+    color: black;
+    cursor: pointer;
+}
+.download-wrapper {
+    position: absolute;
+    left: 61%;
+    top: 0;
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px #e6e6e6 solid;
+}
+.download-wrapper:hover {
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+#download {
+    position: relative;
+    top: 3px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background-color: #007bd3;
+}
+.clear-wrapper {
+    position: absolute;
+    left: 66%;
+    top: 0;
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px #e6e6e6 solid;
+}
+.clear-wrapper:hover {
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+#clear {
+    position: relative;
+    top: 5px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: #007bd3;
+}
